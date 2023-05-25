@@ -1,7 +1,7 @@
 function getFormvalue() {
-	const fname = document.querySelector("#firstName");
-	const lname = document.querySelector("#lastName");
-	alert(fname.value +" "+ lname.value);
+	const inputs = document.querySelectorAll("input");
+	
+	alert(inputs[0].value +" "+ inputs[1].value);
 
 }
 
